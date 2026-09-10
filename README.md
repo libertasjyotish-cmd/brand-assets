@@ -10,7 +10,7 @@
 | `backgrounds/` | サイト全体の背景（`bg-jyotish.jpg` 星図と神殿）、OGP 画像、鑑定書表紙 |
 | `logo/` | ロゴ（横長）、アプリ／ショップアイコン 512px（通常・maskable） |
 | `ornaments/` | 曼荼羅（月と太陽・ホイール・黄道十二宮）、地球アイコン SVG。透過 PNG、装飾・区切り用 |
-| `illustrations/` | 挿絵（天体、象とロータス）。透過 PNG |
+| `illustrations/` | 挿絵。`*-gold.png` は Grok 元画像（`grok_image_*.jpg`、市松模様は擬似透過）から切り出した本物の透過 PNG（黄道十二宮曼荼羅・法輪曼荼羅・蓮＋十二宮・象とロータス）。紺・クリームどちらの背景でも使える |
 | `etsy/` | Etsy リスティング画像（出生図・相性・年間・キャリア）、ショップバナー |
 | `pinterest/` | Pinterest ピン 1000x1500（商品紹介 18 本＋教育系 edu-01〜05） |
 | `banners/` | note / Medium 記事用バナー |
