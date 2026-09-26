@@ -43,3 +43,20 @@ SNS ショート動画チャンネル（Jyotish_SNS_ShortMovie）で使ってい
 ## etsy/video/
 
 Etsy 4 商品のリスティング動画（15 秒・1080x1080・無音・H.264）。生成: scripts/make_videos.py、投入: scripts/upload-videos.js。
+
+## SNS 背景プール（GCS、2026-09-25 時点 bg-01〜bg-54）
+
+SNS ショート動画の背景として Google Sheets `Background_Assets` に登録済みの 9:16 ループ（1088x1920・15秒・h264）。
+URL: `https://storage.googleapis.com/jyotish-sns-renders/backgrounds/bg-NN.mp4`（公開）。
+ローカルには `video/pool/`（git 管理外・1.7GB）に bg-19〜54 をダウンロード済み。取得: `curl -O https://storage.googleapis.com/jyotish-sns-renders/backgrounds/bg-43.mp4`
+
+- bg-19〜28: 夕景・惑星・宮殿・人物（後ろ姿）・黄道帯。汎用
+- bg-29: 光柱・寺院・蓮（ブランド寄り）
+- bg-30〜33: 紫夜空・マンダラ・惑星・人物。ダシャー/時期
+- bg-34〜35: クリーム明色・太陽マンダラ。教育
+- bg-36〜54（09-25 追加）: 山岳＋崖の上の一人の人物＋上空の巨大マンダラ／日食・光柱。カルマ・天命・人生の道系
+  - bg-43 / bg-52: 日食と光柱、山頂へ歩く人物 → Karma & Dharma 動画に使用（bg-43）
+  - bg-38 / bg-46: 中央マンダラ大、上部テキスト向き
+  - bg-50 / bg-53 / bg-54: 両手を広げる人物、黄道帯マンダラ
+
+商品動画で使ったもの: brand 08-26-22-37-35（palm）、bg-43（karma）。同じ背景の使い回しを避ける。
